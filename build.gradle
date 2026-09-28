@@ -6,7 +6,7 @@ buildscript {
       mavenCentral()
     }
     dependencies {
-        classpath('org.springframework.boot:spring-boot-gradle-plugin:2.3.0.RELEASE')
+        classpath('org.springframework.boot:spring-boot-gradle-plugin:3.2.12')
     }
 }
 
@@ -23,8 +23,8 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 21
+targetCompatibility = 21
 
 
 dependencies {
